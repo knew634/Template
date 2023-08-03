@@ -43,9 +43,9 @@ ax.scatter(x, y, label=r'$n=6$') # 使用LaTeX字体
 ax.plot(xnew, ynew, color='pink', label=r'$\frac{\varGamma \left( 7 \right)}{\varGamma \left( x+1 \right) \varGamma \left( 7-x \right)}$')
 # 设置坐标轴刻度字体
 ax.tick_params(axis='both', labelsize=12)
-ax.set_xlabel(r'$x$ 值', fontsize=14) # 使用LaTeX字体
-ax.set_ylabel(r'$y$ 值', fontsize=14) # 使用LaTeX字体
-ax.set_title('Analytic Extension of Combinatorial Numbers', fontsize=16)
+ax.set_xlabel(r'$x$ Value', fontsize=14) # 使用LaTeX字体
+ax.set_ylabel(r'$y$ Value', fontsize=14) # 使用LaTeX字体
+ax.set_title('Analytic Extension of $C_{n}^{x}$ - by know634', fontsize=16)
 
 # 移动坐标轴交叉于点(0,0)
 ax.spines['left'].set_position('zero')
